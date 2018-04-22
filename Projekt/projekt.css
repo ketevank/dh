@@ -1,0 +1,1146 @@
+@media (min-width:900px) {
+
+    body {
+        background-color: #eef0e7;
+    }
+
+    #kotypage {
+        position: relative;
+        right: 1cm;
+        top: 0.1cm;
+        font-family: 'Amatic SC', cursive;
+        font-size: 5cm;
+        color: rgb(250, 250, 240);
+        text-shadow: 8px 8px 35px rgba(0, 0, 0, 0.3);
+        letter-spacing: -0.1cm;
+        text-align: right;
+    }
+
+    #page {
+        width: 75%;
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    aside {
+        width: 25%;
+        display: inline-block;
+        background-color: #eef0e7;
+    }
+
+    .navpage ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    .navpage li {
+        background-color: #161933;
+        display: block;
+        padding: 0.4cm 0.4cm;
+        margin-bottom: 0.0cm;
+        border-style: solid;
+        border-width: 0px 0px 0.2cm 0px;
+        border-color: #eef0e7;
+        width: 88%;
+    }
+
+    .navpage a {
+        display: block;
+        color: white;
+        font-size: 20px;
+        font-family: Calibri, Verdana, sans-serif;
+        text-decoration: none;
+        text-align: center;
+    }
+
+    nav li:hover {
+        background-color: #f3ba00;
+    }
+
+    .headpage {
+        background-image: url("nagl.png");
+        background-repeat: no-repeat;
+        /*background-attachment: fixed;*/
+        background-position: center;
+        /*display: block;*/
+        /*margin-left: auto;*/
+        /*margin-right: auto;*/
+    }
+
+    #headerimg {
+        width: 100%;
+    }
+
+    .paragraph {
+        text-indent: 0.7cm;
+        font-family: Calibri, Verdana, sans-serif;
+        text-decoration: none;
+        padding: 0.5cm;
+
+    }
+
+    table {
+        font-family: Calibri, Verdana, sans-serif;
+        text-decoration: none;
+        margin: 0.5cm;
+        border-collapse: collapse;
+        width: 45%;
+    }
+
+    thead {
+        border: solid;
+        border-width: thin;
+        border-color: #161933;
+        margin: 0;
+        padding: 0.9cm;
+        background-color: rgba(37, 37, 88, 0.73);
+        color: rgba(255, 255, 255, 0.8);
+        font-family: Calibri, Verdana, sans-serif;
+        font-size: 0.5cm;
+    }
+
+    #tabletitle {
+        padding: 0.3cm;
+    }
+
+    tbody {
+        border: solid;
+        border-width: thin;
+        border-color: #161933;
+        margin: 0;
+        padding: 0.9cm;
+        background-color: rgba(31, 31, 79, 0.21);
+        color: #000000;
+        font-family: Calibri, Verdana, sans-serif;
+        font-size: 0.4cm;
+    }
+
+    .tablehead {
+        border: solid;
+        border-width: thin;
+        border-color: #161933;
+        margin: 0;
+        padding: 0.2cm;
+    }
+
+    .tablecol {
+        border: solid;
+        border-width: thin;
+        border-top: hidden;
+        border-color: #161933;
+        padding: 0.2cm;
+    }
+
+    .trdarker {
+        background-color: rgba(31, 31, 79, 0.33);;
+    }
+
+    .trdarker td:hover {
+        background-color: rgba(31, 31, 79, 0.4);
+    }
+
+    .trlighter td:hover {
+        background-color: rgba(31, 31, 79, 0.12);
+    }
+
+    table a {
+        text-decoration: none;
+        color: black;
+    }
+
+    .content {
+        float: right;
+        width: 75%;
+        display: inline-block;
+        background-color: #eef0e7;
+    }
+
+    h2 {
+        position: relative;
+        text-align: center;
+        font-family: Calibri, Verdana, sans-serif;
+    }
+
+    #questionnaire {
+        border: none;
+    }
+
+    h4 {
+        font-family: Calibri, Verdana, sans-serif;
+        text-decoration: none;
+        color: rgba(15, 15, 15, 0.9);
+        font-size: 0.5cm;
+        letter-spacing: 0.06cm;
+        margin-bottom: 0cm;
+    }
+
+    .imgrasy {
+        float: right;
+        width: 50%;
+        margin-left: 0.3cm;
+        margin-bottom: 0.3cm;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.39);
+    }
+
+    .books {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.39);
+    }
+
+    article {
+        margin-left: 0.5cm;
+    }
+
+    h3 {
+        font-family: Calibri, Verdana, sans-serif;
+    }
+
+    p {
+        font-family: Calibri, Verdana, sans-serif;
+    }
+
+    #book1 {
+        width: 30%;
+        height: 50%;
+        float: left;
+        margin: 0.2cm;
+    }
+
+    #book1 h2 {
+        text-align: center;
+        margin: 0;
+        font-size: 0.5cm;
+    }
+
+    #book1 p {
+        text-align: center;
+        margin: 0;
+    }
+
+    #book1 img {
+        width: 100%;
+    }
+
+    #book2 {
+        float: left;
+        width: 30%;
+        height: 50%;
+        margin: 0.2cm;
+    }
+
+    #book2 h2 {
+        text-align: center;
+        margin: 0;
+        font-size: 0.5cm;
+    }
+
+    #book2 p {
+        text-align: center;
+        margin: 0;
+    }
+
+    #book2 img {
+        width: 100%;
+    }
+
+    #book3 {
+        width: 30%;
+        height: 50%;
+        float: left;
+        margin: 0.2cm;
+    }
+
+    #book3 h2 {
+        text-align: center;
+        margin: 0;
+        font-size: 0.5cm;
+    }
+
+    #book3 p {
+        text-align: center;
+        margin: 0;
+    }
+
+    #book3 img {
+        width: 100%;
+    }
+
+    #book4 {
+        width: 30%;
+        height: 50%;
+        float: left;
+        margin: 0.2cm;
+    }
+
+    #book4 h2 {
+        text-align: center;
+        margin: 0;
+        font-size: 0.5cm;
+    }
+
+    #book4 p {
+        text-align: center;
+        margin: 0;
+    }
+
+    #book4 img {
+        width: 100%;
+    }
+
+    #book5 {
+        width: 30%;
+        height: 50%;
+        float: left;
+        margin: 0.2cm;
+    }
+
+    #book5 h2 {
+        text-align: center;
+        margin: 0;
+        font-size: 0.5cm;
+    }
+
+    #book5 p {
+        text-align: center;
+        margin: 0;
+    }
+
+    #book5 img {
+        width: 100%;
+    }
+
+    #book6 {
+        width: 30%;
+        height: 50%;
+        float: left;
+        margin: 0.2cm;
+    }
+
+    #book6 h2 {
+        text-align: center;
+        margin: 0;
+        font-size: 0.5cm;
+    }
+
+    #book6 p {
+        text-align: center;
+        margin: 0;
+    }
+
+    #book6 img {
+        width: 100%;
+    }
+
+    dl dt {
+        font-family: Calibri, Verdana, sans-serif;
+        font-size: 0.5cm;
+    }
+
+    dl dd {
+        font-family: Calibri, Verdana, sans-serif;
+        font-size: 0.4cm;
+        margin-bottom: 0.3cm;
+    }
+
+    fieldset {
+        font-family: Calibri, Verdana, sans-serif;
+    }
+
+    .ankieta {
+        font-weight: bold;
+        margin-top: 0.5cm;
+    }
+
+    select {
+        margin: 0.2cm;
+    }
+
+    .questbuttons {
+        margin: 0 0 0.5cm 0.3cm;
+    }
+
+}
+
+@media (max-width:900px) and (min-width: 730px) {
+
+    body {
+        background-color: #eef0e7;
+    }
+
+    #kotypage {
+        position: relative;
+        right: 1cm;
+        top: 0.1cm;
+        font-family: 'Amatic SC', cursive;
+        font-size: 5cm;
+        color: rgb(250, 250, 240);
+        text-shadow: 8px 8px 35px rgba(0, 0, 0, 0.3);
+        letter-spacing: -0.1cm;
+        text-align: right;
+    }
+
+    #page {
+        width: 100%;
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    aside {
+        display: inline;
+        background-color: #eef0e7;
+    }
+
+    .navpage {
+        text-align: center;
+        width: 100%;
+    }
+
+    .navpage ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    .navpage li {
+        background-color: #161933;
+        display: inline;
+        padding: 0.4cm 0.4cm;
+        width: 100%;
+    }
+
+    .navpage a {
+        display: inline;
+        color: white;
+        font-size: 15px;
+        font-family: Calibri, Verdana, sans-serif;
+        text-decoration: none;
+        text-align: center;
+    }
+
+    nav li:hover {
+        background-color: #f3ba00;
+    }
+
+    .headpage {
+        background-image: url("nagl.png");
+        background-repeat: no-repeat;
+        /*background-attachment: fixed;*/
+        background-position: center;
+        /*display: block;*/
+        /*margin-left: auto;*/
+        /*margin-right: auto;*/
+    }
+
+    #headerimg {
+        width: 100%;
+    }
+
+    .paragraph {
+        text-indent: 0.7cm;
+        font-family: Calibri, Verdana, sans-serif;
+        text-decoration: none;
+        padding: 0.5cm;
+
+    }
+
+    table {
+        font-family: Calibri, Verdana, sans-serif;
+        text-decoration: none;
+        margin: 0.5cm;
+        border-collapse: collapse;
+        width: 45%;
+    }
+
+    thead {
+        border: solid;
+        border-width: thin;
+        border-color: #161933;
+        margin: 0;
+        padding: 0.9cm;
+        background-color: rgba(37, 37, 88, 0.73);
+        color: rgba(255, 255, 255, 0.8);
+        font-family: Calibri, Verdana, sans-serif;
+        font-size: 0.5cm;
+    }
+
+    #tabletitle {
+        padding: 0.3cm;
+    }
+
+    tbody {
+        border: solid;
+        border-width: thin;
+        border-color: #161933;
+        margin: 0;
+        padding: 0.9cm;
+        background-color: rgba(31, 31, 79, 0.21);
+        color: #000000;
+        font-family: Calibri, Verdana, sans-serif;
+        font-size: 0.4cm;
+    }
+
+    .tablehead {
+        border: solid;
+        border-width: thin;
+        border-color: #161933;
+        margin: 0;
+        padding: 0.2cm;
+    }
+
+    .tablecol {
+        border: solid;
+        border-width: thin;
+        border-top: hidden;
+        border-color: #161933;
+        padding: 0.2cm;
+    }
+
+    .trdarker {
+        background-color: rgba(31, 31, 79, 0.33);;
+    }
+
+    .trdarker td:hover {
+        background-color: rgba(31, 31, 79, 0.4);
+    }
+
+    .trlighter td:hover {
+        background-color: rgba(31, 31, 79, 0.12);
+    }
+
+    table a {
+        text-decoration: none;
+        color: black;
+    }
+
+    .content {
+        float: right;
+        width: 100%;
+        display: inline-block;
+        background-color: #eef0e7;
+    }
+
+    h2 {
+        position: relative;
+        text-align: center;
+        font-family: Calibri, Verdana, sans-serif;
+    }
+
+    #questionnaire {
+        border: none;
+    }
+
+    .newslet {
+        display: none;
+    }
+
+    .newsletter {
+        border: none;
+    }
+
+    h4 {
+        font-family: Calibri, Verdana, sans-serif;
+        text-decoration: none;
+        color: rgba(15, 15, 15, 0.9);
+        font-size: 0.5cm;
+        letter-spacing: 0.06cm;
+        margin-bottom: 0cm;
+    }
+
+    #nldescription {
+        font-family: Calibri, Verdana, sans-serif;
+        text-decoration: none;
+        color: rgba(0, 0, 0, 0.44);
+        letter-spacing: 0.03cm;
+        line-height: 0.4cm;
+        margin-top: 0.2cm;
+        margin-bottom: 0.2cm;
+    }
+
+    #nlacount {
+        font-family: Calibri, Verdana, sans-serif;
+        text-decoration: none;
+        color: rgba(0, 0, 0, 0.8);
+        letter-spacing: 0.03cm;
+        line-height: 0.4cm;
+        margin-top: 0;
+        padding-top: 0;
+        font-size: 0.5cm;
+    }
+
+    .imgrasy {
+        float: right;
+        width: 50%;
+        margin-left: 0.3cm;
+        margin-bottom: 0.3cm;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.39);
+    }
+
+    .books {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.39);
+    }
+
+    article {
+        margin-left: 0.5cm;
+        margin-top: 0.5cm;
+    }
+
+    h3 {
+        font-family: Calibri, Verdana, sans-serif;
+    }
+
+    p {
+        font-family: Calibri, Verdana, sans-serif;
+    }
+
+    #book1 {
+        width: 30%;
+        height: 50%;
+        float: left;
+        margin: 0.2cm;
+    }
+
+    #book1 h2 {
+        text-align: center;
+        margin: 0;
+        font-size: 0.5cm;
+    }
+
+    #book1 p {
+        text-align: center;
+        margin: 0;
+    }
+
+    #book1 img {
+        width: 100%;
+    }
+
+    #book2 {
+        float: left;
+        width: 30%;
+        height: 50%;
+        margin: 0.2cm;
+    }
+
+    #book2 h2 {
+        text-align: center;
+        margin: 0;
+        font-size: 0.5cm;
+    }
+
+    #book2 p {
+        text-align: center;
+        margin: 0;
+    }
+
+    #book2 img {
+        width: 100%;
+    }
+
+    #book3 {
+        width: 30%;
+        height: 50%;
+        float: left;
+        margin: 0.2cm;
+    }
+
+    #book3 h2 {
+        text-align: center;
+        margin: 0;
+        font-size: 0.5cm;
+    }
+
+    #book3 p {
+        text-align: center;
+        margin: 0;
+    }
+
+    #book3 img {
+        width: 100%;
+    }
+
+    #book4 {
+        width: 30%;
+        height: 50%;
+        float: left;
+        margin: 0.2cm;
+    }
+
+    #book4 h2 {
+        text-align: center;
+        margin: 0;
+        font-size: 0.5cm;
+    }
+
+    #book4 p {
+        text-align: center;
+        margin: 0;
+    }
+
+    #book4 img {
+        width: 100%;
+    }
+
+    #book5 {
+        width: 30%;
+        height: 50%;
+        float: left;
+        margin: 0.2cm;
+    }
+
+    #book5 h2 {
+        text-align: center;
+        margin: 0;
+        font-size: 0.5cm;
+    }
+
+    #book5 p {
+        text-align: center;
+        margin: 0;
+    }
+
+    #book5 img {
+        width: 100%;
+    }
+
+    #book6 {
+        width: 30%;
+        height: 50%;
+        float: left;
+        margin: 0.2cm;
+    }
+
+    #book6 h2 {
+        text-align: center;
+        margin: 0;
+        font-size: 0.5cm;
+    }
+
+    #book6 p {
+        text-align: center;
+        margin: 0;
+    }
+
+    #book6 img {
+        width: 100%;
+    }
+
+    dl dt {
+        font-family: Calibri, Verdana, sans-serif;
+        font-size: 0.5cm;
+    }
+
+    dl dd {
+        font-family: Calibri, Verdana, sans-serif;
+        font-size: 0.4cm;
+        margin-bottom: 0.3cm;
+    }
+
+    fieldset {
+        font-family: Calibri, Verdana, sans-serif;
+    }
+
+    legend {
+        font-weight: bold;
+        margin-top: 0.5cm;
+    }
+
+    select {
+        margin: 0.2cm;
+    }
+
+    .questbuttons {
+        margin: 0 0 0.5cm 0.3cm;
+    }
+
+}
+
+@media (max-width:730px) {
+
+    body {
+        background-color: #eef0e7;
+    }
+
+    #kotypage {
+        position: relative;
+        right: 1cm;
+        top: 0.1cm;
+        font-family: 'Amatic SC', cursive;
+        font-size: 5cm;
+        color: rgb(250, 250, 240);
+        text-shadow: 8px 8px 35px rgba(0, 0, 0, 0.3);
+        letter-spacing: -0.1cm;
+        text-align: right;
+    }
+
+    #page {
+        width: 100%;
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    aside {
+        display: inline;
+        background-color: #eef0e7;
+    }
+
+    .navpage {
+        text-align: center;
+    }
+
+    .navpage ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    .navpage li {
+        background-color: #161933;
+        display: block;
+        padding: 0.4cm 0cm;
+        margin-bottom: 0.0cm;
+        border-style: solid;
+        border-width: 0px 0px 0.2cm 0px;
+        border-color: #eef0e7;
+        width: 100%;
+    }
+
+    .navpage a {
+        display: block;
+        color: white;
+        font-size: 20px;
+        font-family: Calibri, Verdana, sans-serif;
+        text-decoration: none;
+        text-align: center;
+    }
+
+    nav li:hover {
+        background-color: #f3ba00;
+    }
+
+    .headpage {
+        background-image: url("nagl.png");
+        background-repeat: no-repeat;
+        /*background-attachment: fixed;*/
+        background-position: center;
+        /*display: block;*/
+        /*margin-left: auto;*/
+        /*margin-right: auto;*/
+    }
+
+    #headerimg {
+        width: 100%;
+    }
+
+    .paragraph {
+        text-indent: 0.7cm;
+        font-family: Calibri, Verdana, sans-serif;
+        text-decoration: none;
+        padding: 0.5cm;
+
+    }
+
+    table {
+        font-family: Calibri, Verdana, sans-serif;
+        text-decoration: none;
+        margin: 0.5cm;
+        border-collapse: collapse;
+        width: 45%;
+    }
+
+    thead {
+        border: solid;
+        border-width: thin;
+        border-color: #161933;
+        margin: 0;
+        padding: 0.9cm;
+        background-color: rgba(37, 37, 88, 0.73);
+        color: rgba(255, 255, 255, 0.8);
+        font-family: Calibri, Verdana, sans-serif;
+        font-size: 0.5cm;
+    }
+
+    #tabletitle {
+        padding: 0.3cm;
+    }
+
+    tbody {
+        border: solid;
+        border-width: thin;
+        border-color: #161933;
+        margin: 0;
+        padding: 0.9cm;
+        background-color: rgba(31, 31, 79, 0.21);
+        color: #000000;
+        font-family: Calibri, Verdana, sans-serif;
+        font-size: 0.4cm;
+    }
+
+    .tablehead {
+        border: solid;
+        border-width: thin;
+        border-color: #161933;
+        margin: 0;
+        padding: 0.2cm;
+    }
+
+    .tablecol {
+        border: solid;
+        border-width: thin;
+        border-top: hidden;
+        border-color: #161933;
+        padding: 0.2cm;
+    }
+
+    .trdarker {
+        background-color: rgba(31, 31, 79, 0.33);;
+    }
+
+    .trdarker td:hover {
+        background-color: rgba(31, 31, 79, 0.4);
+    }
+
+    .trlighter td:hover {
+        background-color: rgba(31, 31, 79, 0.12);
+    }
+
+    table a {
+        text-decoration: none;
+        color: black;
+    }
+
+    .content {
+        float: right;
+        width: 100%;
+        display: inline-block;
+        background-color: #eef0e7;
+    }
+
+    h2 {
+        position: relative;
+        text-align: center;
+        font-family: Calibri, Verdana, sans-serif;
+    }
+
+    #questionnaire {
+        border: none;
+    }
+
+    h4 {
+        font-family: Calibri, Verdana, sans-serif;
+        text-decoration: none;
+        color: rgba(15, 15, 15, 0.9);
+        font-size: 0.5cm;
+        letter-spacing: 0.06cm;
+        margin-bottom: 0cm;
+    }
+
+    #nldescription {
+        font-family: Calibri, Verdana, sans-serif;
+        text-decoration: none;
+        color: rgba(0, 0, 0, 0.44);
+        letter-spacing: 0.03cm;
+        line-height: 0.4cm;
+        margin-top: 0.2cm;
+        margin-bottom: 0.2cm;
+    }
+
+    #nlacount {
+        font-family: Calibri, Verdana, sans-serif;
+        text-decoration: none;
+        color: rgba(0, 0, 0, 0.8);
+        letter-spacing: 0.03cm;
+        line-height: 0.4cm;
+        margin-top: 0;
+        padding-top: 0;
+        font-size: 0.5cm;
+    }
+
+    .imgrasy {
+        float: right;
+        width: 50%;
+        margin-left: 0.3cm;
+        margin-bottom: 0.3cm;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.39);
+    }
+
+    .books {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.39);
+    }
+
+    article {
+        margin-left: 0.5cm;
+        margin-top: 0.5cm;
+    }
+
+    h3 {
+        font-family: Calibri, Verdana, sans-serif;
+    }
+
+    p {
+        font-family: Calibri, Verdana, sans-serif;
+    }
+
+    #book1 {
+        width: 30%;
+        height: 50%;
+        float: left;
+        margin: 0.2cm;
+    }
+
+    #book1 h2 {
+        text-align: center;
+        margin: 0;
+        font-size: 0.5cm;
+    }
+
+    #book1 p {
+        text-align: center;
+        margin: 0;
+    }
+
+    #book1 img {
+        width: 100%;
+    }
+
+    #book2 {
+        float: left;
+        width: 30%;
+        height: 50%;
+        margin: 0.2cm;
+    }
+
+    #book2 h2 {
+        text-align: center;
+        margin: 0;
+        font-size: 0.5cm;
+    }
+
+    #book2 p {
+        text-align: center;
+        margin: 0;
+    }
+
+    #book2 img {
+        width: 100%;
+    }
+
+    #book3 {
+        width: 30%;
+        height: 50%;
+        float: left;
+        margin: 0.2cm;
+    }
+
+    #book3 h2 {
+        text-align: center;
+        margin: 0;
+        font-size: 0.5cm;
+    }
+
+    #book3 p {
+        text-align: center;
+        margin: 0;
+    }
+
+    #book3 img {
+        width: 100%;
+    }
+
+    #book4 {
+        width: 30%;
+        height: 50%;
+        float: left;
+        margin: 0.2cm;
+    }
+
+    #book4 h2 {
+        text-align: center;
+        margin: 0;
+        font-size: 0.5cm;
+    }
+
+    #book4 p {
+        text-align: center;
+        margin: 0;
+    }
+
+    #book4 img {
+        width: 100%;
+    }
+
+    #book5 {
+        width: 30%;
+        height: 50%;
+        float: left;
+        margin: 0.2cm;
+    }
+
+    #book5 h2 {
+        text-align: center;
+        margin: 0;
+        font-size: 0.5cm;
+    }
+
+    #book5 p {
+        text-align: center;
+        margin: 0;
+    }
+
+    #book5 img {
+        width: 100%;
+    }
+
+    #book6 {
+        width: 30%;
+        height: 50%;
+        float: left;
+        margin: 0.2cm;
+    }
+
+    #book6 h2 {
+        text-align: center;
+        margin: 0;
+        font-size: 0.5cm;
+    }
+
+    #book6 p {
+        text-align: center;
+        margin: 0;
+    }
+
+    #book6 img {
+        width: 100%;
+    }
+
+    dl dt {
+        font-family: Calibri, Verdana, sans-serif;
+        font-size: 0.5cm;
+    }
+
+    dl dd {
+        font-family: Calibri, Verdana, sans-serif;
+        font-size: 0.4cm;
+        margin-bottom: 0.3cm;
+    }
+
+    fieldset {
+        font-family: Calibri, Verdana, sans-serif;
+    }
+
+    legend {
+        font-weight: bold;
+        margin-top: 0.5cm;
+    }
+
+    select {
+        margin: 0.2cm;
+    }
+
+    .questbuttons {
+        margin: 0 0 0.5cm 0.3cm;
+    }
+
+}

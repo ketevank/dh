@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Język szwedzki: kurs od podstaw</title>
+</head>
+
+<body>
+        <h1>Kurs języka szwedzkiego</h1>
+        <h2>dla  początkujących</h2>
+
+        <p>
+          Zapraszamy na kurs języka szwedzkiego na poziomie podstawowym - A1. Zajęcia przeznaczone są dla osób pragnących rozpocząć od podstaw naukę języka, ze szczególnym uwzględnieniem rozwijania efektywnej komunikacji.
+        </p>
+        <h4>Oferujemy:</h4>
+            <ul>
+                <li>zajęcia z wykwalifikowanymi lektorami</li>
+                <li>nowoczesne zaplecze multimedialne</li>
+                <li>możliwość uczęszczania na dodatkowe konwersacje w mniejszych grupach</li>
+                <li>po ukończeniu kursu na poziomie A1 - kontynuacja na poziomie A2 <strong>z 50-procentową zniżką</strong></li>
+                <li>dodatkowo: kursy przygotowujące do egzaminów certyfikacyjnych</li>
+            </ul>
+        <p>
+          Warunkiem zapisu na kurs jest wypełnienie poniższego formularza zgłoszeniowego. Po wypełnieniu i wysłaniu formularza otrzymają Państwo maila z potwierdzeniem, zawierającego także podstawowe informacje na temat kursu.
+        </p>
+
+    <form action="http://wierzba.wzks.uj.edu.pl/~kwrobel/DH/test.php" method="post">
+
+        <h3>Formularz zgłoszeniowy</h3>
+            <fieldset>
+                <legend>Dane osobowe:</legend>
+
+                <p><input type="text" name="Imię" placeholder="Imię" required></p>
+                <p><input type="text" name="Nazwisko" placeholder="Nazwisko" required></p>
+                <p><input type="email" name="Email" placeholder="Email" required></p>
+                <p><input type="tel" name="Telefon" placeholder="Numer telefonu" required></p>
+                <p><input type="text" name="Adres zamieszkania" placeholder="Adres zamieszkania" required></p>
+
+                <p>Wybierz preferowany termin zajęć:</p>
+                <select name="termin">
+                    <option value="wt">Wtorek 16:30-18:00</option>
+                    <option value="sr">Środa 18:00-19:30</option>
+                    <option value="pt">Piątek 15:00-16:30</option>
+                    <option value="sob">Sobota 13:30-15:00</option>
+                </select>
+
+                <p>Dodatkowe uwagi/pytania:</p>
+                    <textarea cols="40" rows="10" name="Pytania"></textarea>
+            </fieldset>
+
+    <input type="reset" value="Wyczyść pola">
+    <input type="submit" value="Wyślij">
+  </form>
+
+</body>
+
+</html>

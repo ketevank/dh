@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<head>
+    <title>Ankieta - Koty rasowe</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="projekt.css">
+    <script src="jquery-3.1.1.js"></script>
+    <script src="projekt.js"></script>
+
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet">
+</head>
+
+<body>
+
+<div id="page">
+    <header class="headpage">
+             <div id="kotypage">KOTY</div>
+         </header>
+
+    <aside>
+        <nav class="navpage">
+            <ul>
+                <li id="index"><a href="index.html">RASY KOTÓW</a></li>
+                <li id="opieka"><a href="opieka.html">OPIEKA I PIELĘGNACJA</a></li>
+                <li id="ksiazki"><a href="ksiazki.html">KSIĄŻKI</a></li>
+                <li id="ankieta"><a href="ankieta.html">ANKIETA</a></li>
+            </ul>
+        </nav>
+    </aside>
+
+    <section class="content">
+        <form action="http://wierzba.wzks.uj.edu.pl/~kwrobel/DH/test.php" method="post">
+
+            <h2>Ankieta dla właścicieli kotów:</h2>
+
+            <fieldset id="questionnaire">
+                <p class="ankieta">Napisz nam coś o sobie:</p>
+                <p><input type="text" name="Imię" placeholder="Imię" required></p>
+                <p><input type="number" min="0" max="100" step="1" placeholder="Wiek" required></p>
+
+                <p class="ankieta">Jakiego rodzaju koty miałeś/masz pod opieką?</p>
+                <p><input type="checkbox" name="odpA" id="A" value="A">
+                <label for="A">Nierasowe</label></p>
+                <p><input type="checkbox" name="rasa" id="B" value="B">
+                <label for="B">Rasowe długowłose</label></p>
+                <p><input type="checkbox" name="rasa" id="C" value="C">
+                <label for="C">Rasowe krótkowłose</label></p>
+                <p><input type="checkbox" name="rasa" id="D" value="D">
+                <label for="D">Orientalne</label></p>
+
+                <p class="ankieta">Od jakiego czasu zajmujesz się kotami?</p>
+                <label for="czas"></label>
+                <select id="czas" name="czas">
+                    <option value="0-1">mniej niż rok</option>
+                    <option value="1-5">od roku do pięciu lat</option>
+                    <option value="5-10">od pięciu do dziesięciu lat</option>
+                    <option value="10-">powyżej dziesięciu lat</option>
+                </select>
+
+                <p class="ankieta">Jaki jest preferowany przez ciebie sposób pozyskiwania zwierzaka?</p>
+                <p><input type="radio" name="odp" id="adopcja" value="adopcja">
+                    <label for="adopcja">Adopcja</label></p>
+                <p><input type="radio" name="odp" id="zakup" value="zakup">
+                    <label for="zakup">Zakup u hodowcy</label></p>
+
+                <p class="ankieta">Dodatkowe uwagi i propozycje:</p>
+                <label for="uwagi"></label>
+                <textarea id="uwagi" cols="40" rows="6"></textarea>
+            </fieldset>
+
+            <button class="questbuttons" type="reset">Wyczyść</button>
+            <button class="questbuttons" type="submit">Wyślij</button>
+
+        </form>
+    </section>
+</div>
+
+</body>
+
+</html>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Język szwedzki: kurs od podstaw</title>
+    <link rel="stylesheet" href="lab4.css" type="text/css">
+</head>
+
+<body>
+<div class="naglowek">
+    <hr class="odstep"/>
+    <h1>Kurs języka szwedzkiego</h1>
+    <h2>dla początkujących</h2>
+    <hr class="odstep"/>
+</div>
+
+<form action="http://wierzba.wzks.uj.edu.pl/~kwrobel/DH/test.php" method="post">
+
+    <h3>Formularz zgłoszeniowy</h3>
+    <fieldset>
+        <legend>Dane osobowe:</legend>
+
+        <p><input type="text" name="Imię" placeholder="Imię" required></p>
+        <p><input type="text" name="Nazwisko" placeholder="Nazwisko" required></p>
+        <p><input type="email" name="Email" placeholder="Email" required></p>
+        <p><input type="tel" name="Telefon" placeholder="Numer telefonu" required></p>
+        <p><input type="text" name="Adres zamieszkania" placeholder="Adres zamieszkania" required></p>
+    </fieldset>
+
+    <fieldset>
+        <legend>Preferencje</legend>
+        <div class="label-option">
+            <label for="termin">Wybierz preferowany termin zajęć:</label>
+            <select name="termin" id="termin">
+                <option value="wt">Wtorek 16:30-18:00</option>
+                <option value="sr">Środa 18:00-19:30</option>
+                <option value="pt">Piątek 15:00-16:30</option>
+                <option value="sob">Sobota 13:30-15:00</option>
+            </select>
+        </div>
+        <div class="label-option">
+            <label for="Pytania">Dodatkowe uwagi/pytania:</label>
+            <textarea cols="40" rows="10" name="Pytania" id="Pytania"></textarea>
+        </div>
+    </fieldset>
+
+    <input type="button" value="Powrót" onclick="location.href='4.html';"/>
+    <input type="reset" value="Wyczyść pola">
+    <input type="submit" value="Wyślij">
+</form>
+
+</body>
+
+</html>

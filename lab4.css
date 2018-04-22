@@ -1,0 +1,54 @@
+.naglowek {
+    text-align: center;
+    font-style: italic;
+}
+
+.odstep {
+    width: 600px;
+}
+
+h1 {
+    color: #10375d
+}
+
+h2 {
+    color: #05647a
+}
+
+body {
+    background-color: #e0e2d5
+}
+
+#tekstGl {
+    font-size: 15px;
+    font-family: Verdana, sans-serif;
+    text-align: justify;
+    line-height: 20px;
+}
+
+ul {
+    list-style-position: inside;
+}
+
+form {
+    font-family: Verdana, sans-serif;
+}
+
+img#zdjecie {
+    width: 600px;
+    float: left;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+
+#pole {
+    margin-top: 5px;
+}
+fieldset{
+    margin:20px;
+}
+
+.label-option *{
+    margin: 10px;
+    display: block;
+}
